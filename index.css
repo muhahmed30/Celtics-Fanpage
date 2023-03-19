@@ -1,0 +1,169 @@
+*{
+  background-color: black;
+  font-size: 16px; 
+}
+.navbar{
+  display: flex; 
+  justify-content: space-around; 
+  align-items: center; 
+  position: fixed; 
+  width: 100%;
+  z-index: 1; 
+  text-decoration: none;
+}
+.logo{
+  width: 15%;
+  background-image: url('https://media.nbcboston.com/2021/09/TD_Garden_USATSI_13976463_0.jpg?quality=85&strip=all&resize=1200%2C675');
+}
+.logo:hover{
+  content: url('https://i.pinimg.com/736x/04/7f/41/047f41b24dda3118227a656a64290c5b--boston-celtics-logo-celtic-pride.jpg');
+  border: 1px solid darkgreen;
+  width: 15%;
+}
+.nav{
+  display: flex; 
+  align-items: center; 
+  color: darkgreen;
+}
+.na{
+  margin: 15px;
+  font-family: 'Noto Serif';
+  list-style-type: none; 
+  font-size: 1.5rem; 
+  border: 2px solid darkgreen; 
+  border-radius: 30px;
+}
+a:link {
+  color: darkgreen;
+  text-decoration: none; 
+}
+a:visited {
+  color: darkgreen;
+}
+a:hover {
+  color: black;
+  background-color: darkgreen; 
+  transition: 0.4s all linear 0.2s;
+  text-shadow: 0.125rem 0.125rem 0.5rem #a98a47;
+}
+a:active {
+  color: blue;
+}
+.icons1{
+  display: inline-block;
+  padding: 5px; 
+  color: darkgreen;
+}
+.bannerimg{
+  width: 100%;
+  height: auto; 
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 100%;
+}
+.im{
+  width: 100%; 
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: none;
+  font-size: 3rem; 
+  color: gold;
+  font-family: 'Noto Serif';
+  text-shadow: lightgreen 2px 3px;
+  text-align: center; 
+}
+h2{
+  display: flex;
+  align-items: center;  
+  justify-content: center; 
+  font-size: 2rem; 
+  font-family: 'Rubik Iso'; 
+  color: white; 
+  height: 100px; 
+  margin-top: 10px; 
+  opacity: 0.8; 
+  background-image: linear-gradient(45deg, green, black);
+}
+.header{
+  background-image: url('https://staticg.sportskeeda.com/editor/2022/12/4b39e-16704129644013.png');
+  background-size: cover;
+  background-repeat: no-repeat; 
+  height: 600px; 
+  background-attachment: fixed; 
+}
+p{
+  color: white;
+}
+.pcon{
+  text-align: center;
+  line-height: 1.2;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  justify-items: center; 
+  align-content: center; 
+  align-items: center; 
+  background-image: url('https://thespun.com/.image/t_share/MTgzMTI5MjU5ODI4NzE2OTYz/boston-celtics.jpg');
+  background-size: contain; 
+  background-repeat: no-repeat; 
+}
+
+.para{
+  background-image: linear-gradient(45deg, green, black);
+  text-align: center; 
+  padding-right: 30px; 
+  padding-left: 30px;  
+  font-family: 'Times New Roman';
+  width: 20%;
+
+}
+.imc{
+   margin-top: 10px; 
+   width:100%;
+   height: 100%;
+   margin-bottom: 10px; 
+}
+.owner{
+     background-image: url('https://celticswire.usatoday.com/wp-content/uploads/sites/39/2021/05/631f3f2062f84cc5b75dd29f4b915125.jpg?w=1000&h=600&crop=1');
+  background-size: cover;
+  background-repeat: no-repeat; 
+  height: 600px; 
+  background-attachment: fixed; 
+}
+
+footer{
+  color: white; 
+}
+h3{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 30px;
+  background-image: linear-gradient(45deg, green, black);
+  font-family: "Jacques Francois Shadow", cursive;
+  color: gold; 
+  }
+
+.add{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  }
+  h5{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  }
+
+.name{
+  font-family: "Jacques Francois Shadow", cursive;
+  font-size: 1.25rem; 
+  background: darkgreen;
+}
